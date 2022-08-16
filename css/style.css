@@ -1,0 +1,108 @@
+/*unibersel selector*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body {
+ background-color: rgb(204, 90, 90);
+
+}
+/*id selector*/
+#admin-box {
+    background-color: rgb(163, 47, 47);
+    color:rgb(59, 9, 9);
+    text-align: center;
+    width: 40%;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+/*class selector*/
+.admin-img {
+width:150px;
+
+}
+/*decendent selestor*/
+#admin-box h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color:black;
+
+}
+#admin-box h3 {
+    font-size: 25px;
+    border-radius: 3px;
+    color: black;
+}
+#admin-box h4 {
+    font-size: 20px;
+    border-radius: 2px;
+    color: black;
+    
+
+}
+/*grouping selector*/
+input,label {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 3px;
+    color:black;
+}
+input {
+    background-color: rgba(185, 92, 92, 0.836);
+    color: rgb(243, 234, 234);
+    border:1px solid rgb(245, 112, 4);
+    border-radius: 3px;
+}
+input:focus{
+    background-color: rgb(22, 17, 26);
+    transition: ease-in-out 0.9s;
+
+}
+input::placeholder{
+    background-color: rgb(199, 60, 67);
+    color:rgb(2, 1, 1);
+}
+
+label {
+    font-size: 20px;
+}
+p {
+font-size: 21px;
+text-decoration: none;
+color:black;
+
+}
+p a {
+    text-decoration: none;
+    color:rgb(243, 253, 104);
+    text-transform: capitalize;
+}
+input[type="submit"] {
+    background-color: rgb(224, 106, 106);
+    border: 1px solid rgb(74, 182, 88);
+    transition: ease-in-out 0.9s;
+    margin: 20px auto;
+    width: 25%;
+    
+
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(135, 118, 212);
+    border: 1px solid rgb(238, 235, 235);
+    
+
+    
+}
+
+
+/*a[target="_blank"] {
+    background-color: yellowgreen;
+}*/
